@@ -1,0 +1,106 @@
+header{
+    border: 2px solid black;
+    background-color:white` ;
+    border-style: none;
+}
+
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    
+}
+ nav > ul {
+    display: flex;
+    margin-right: 40px;
+ }
+ nav li {
+    list-style: none;
+    margin-left: 10px;
+     font-weight: 500px; 
+     font-size: 1rem;
+ }
+ .name{
+    margin-left: 50px;
+ }
+ nav li a{
+    text-decoration: none;
+    color: black;
+ }
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+ .second-work{
+     /* display: flex; */
+     margin-left: 50px;
+ }
+ .camera{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+ }
+ .btn{
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    color: white;
+ }
+
+ /* thard work  */
+ .logos{
+    
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 1px solid tomato;
+ }
+ .container-2{
+    margin-top: 70px;
+    display: flex;
+    gap: 60px;
+ }
+  .photo{
+    height: 200px;
+    width: 350px;
+    margin-left: 40px;
+  }
+  .color{
+    color: rgb(104, 103, 103);
+  }
+
+
+  .footer{
+    border: 1px solid rgb(2, 2, 51);
+    background-color: rgb(1, 1, 43);
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+  }
+  .span{
+    color: red;
+  }
+
+  .card-section{
+    text-align: center;
+     border: 1px solid black;
+     background-color: beige;
+     box-shadow: 5px 5px 8px black;
+    border-style: none;
+    
+  }
+ 
+ .card-section-title{
+    margin-top: 70px;
+display: flex;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 15px;
+
+ }
+ .photos{
+    width: 280px;
+    height: 200px;
+    margin-top: 10px;
+ }
